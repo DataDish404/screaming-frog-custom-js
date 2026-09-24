@@ -12,6 +12,10 @@ the issue it addresses, why it matters, and how to use it.
 - [`picture-source-missing-dimensions/`](./picture-source-missing-dimensions) —
   Distinguishes real layout-shift risk from spec-valid `<picture>`
   `<source>` elements flagged by "Missing Size Attributes."
+- [`alt-text-generator/`](./alt-text-generator) —
+  Generates alt text for a page's hero image with Gemini, tied to the
+  page's actual target keyword (from its `<title>`/H1) rather than a
+  generic visual description.
 
 ## Usage
 
