@@ -35,7 +35,7 @@
 //
 
 const GEMINI_API_KEY = 'your_api_key_here';
-const apiUrl = `https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent`;
+const apiUrl = `https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent`;
 
 function getPageTopic() {
     if (document.title && document.title.trim()) {
